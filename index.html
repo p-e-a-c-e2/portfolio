@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- homepage -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Peace</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+          <div class="header-text">
+            <p>Frontend web Developer</p>
+            <h2>Hi, i'm <span> Peace </span><br> Anosike From Nigeria</h2>
+          </div>
+        </div>
+    </div>
+
+    <!-- ...About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/IMG_8043 copy.jpg" alt="">
+                </div>
+                
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>A self-taught, self-driven and result-oriented Frontend web developer in<br>pursuit of opportunities to facilitate continuous learning, growth and create positive impact.<br>Eager to apply my web development skills and professional experiences to achieve organizational<br> goals and also attaining a successful career as a Frontend Web Developer.</p>
+
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web development</span><br>website creation and development</li>
+                        </ul>
+                    </div>
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - 2023</span><br>software engineering internship at Alx-africa</li>
+                            <li><span>2022 </span><br>Frontend web developer trainee at Africa Agility</li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>B.sc Fisheries from the university of Lagos</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Tools -->
+    <div id="tools">
+        <div class="container">
+            <h1 class="sub-title">Tools</h1>
+            <div class="tools-list">
+                <div>
+                    <i class="fa-brands fa-html5" style="color:orangered;"></i>
+                    <h2>html5</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3" style="color:skyblue;"></i>
+                    <h2>css3</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>js</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/download.jpg" alt="">
+                <div class="layer">
+                    <h3>Eduford school website</h3>
+                    <p>A university website that talks about the school.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/download.png" alt="">
+                <div class="layer">
+                    <h3>Tic Tac Toe Game</h3>
+                    <p>A simple game for fun.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/download (1).jpg" alt="">
+                <div class="layer">
+                    <h3>WhichRide App</h3>
+                    <p>Helps you compare price between different riders.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>  
+            </div>
+        </div>
+        <a href="https://github.com/p-e-a-c-e2" class="btn">See more</a>
+    </div>
+  </div>  
+  <!-- ---------contact-------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h5 class="sub-title">Contact Me</h5>
+                <p><i class="fa-solid fa-paper-plane"></i> smartpeace6@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +234-903-416-2576</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/Anosike peace"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/theanosike"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin/in/theanosike"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/My cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="" placeholder="Your Name" required>
+                    <input type="email" name="" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Peace. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+  
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
