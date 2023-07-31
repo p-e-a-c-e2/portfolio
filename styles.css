@@ -12,9 +12,9 @@ body{
  #header{
     width: 100%;
     height: 100vh;
-    background-image: url();
+    background-image: url(./images/download\ \(3\).jpg);
     background-size: cover;
-    background-position: cover;
+    background-position: center;
 }
 
 .container{
@@ -333,8 +333,8 @@ form .btn2{
 .copyright i{
     color: #ff004f;
 }
-nav .fas{
-    display: none;
+nav .fa{
+  display: none;
 }
 /* ........css for small screen..... */
 

@@ -14,12 +14,12 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab")
 }
 
-var sidemeu = document.getElementById('sidemenu');
+var sidemeu = document.getElementById("sidemenu");
 
 function openmenu(){
-sidemeu.style.right ='0';
+sidemeu.style.right = "0";
 }
 
 function closemenu(){
-    sidemeu.style.right ='-200px';
+    sidemeu.style.right ="-200px";
     }
